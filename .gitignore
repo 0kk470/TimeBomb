@@ -1,0 +1,56 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+UnityPackageManager/
+.vs/
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Keyboard Fighter/Assets/Resources/DOTweenSettings.asset
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/UI/Common.spriteatlas
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/Atlas/PluginAtlas.spriteatlas
+Keyboard Fighter/.vscode/settings.json
+Doc/~$demo场景和房间美术概要.xlsx
+Keyboard Fighter/Assets/Excel/~$buff.xlsx
+Keyboard Fighter/Assets/Excel/~$buff.xlsx.meta
+Keyboard Fighter/Assets/Excel/~$DropRandomPool.xlsx
+Keyboard Fighter/Assets/Excel/~$DropRandomPool.xlsx.meta
+Keyboard Fighter/Assets/Excel/~$PoolRandomSelectConfig.xlsx.meta
+Keyboard Fighter/Assets/Excel/~$RoomCond.xlsx
+Keyboard Fighter/Assets/Excel/~$RoomCond.xlsx.meta
+Keyboard Fighter/Assets/Excel/~$SkillPluginExcel.xlsx
+Keyboard Fighter/Assets/Excel/~$SkillPluginExcel.xlsx.meta
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/Atlas/Item1.spriteatlas
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/Atlas/PluginAtlas.spriteatlas
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/Atlas/SkillIcon1.spriteatlas
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/UI/Common.spriteatlas
+Keyboard Fighter/Assets/Resources/DOTweenSettings.asset
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/Atlas/Item1.spriteatlas
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/Atlas/PluginAtlas.spriteatlas
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/Atlas/SkillIcon1.spriteatlas
+Keyboard Fighter/Assets/Resources/AssetBundles/Sprites/UI/Common.spriteatlas
+Keyboard Fighter/Assets/Resources/DOTweenSettings.asset
