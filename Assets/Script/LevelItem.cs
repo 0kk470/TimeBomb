@@ -77,4 +77,14 @@ public class LevelItem:MonoBehaviour
     }
 
 
+    public void LevelComplete(Player player)
+    {
+        if(player == null)
+        {
+            Debug.LogError("No Player");
+            return;
+        }
+        player.StopMove();
+    }
+
 }

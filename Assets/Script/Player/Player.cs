@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
 
     private Tween m_RotateTwn;
 
+    private bool m_Stop = false;
+
     // Use this for initialization
     void Start()
     {
@@ -26,6 +28,18 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (m_Stop)
+            return;
         m_Rb2D.MovePosition(transform.position + Time.deltaTime * m_FlySpeed * Vector3.right);
+    }
+
+    public void StopMove()
+    {
+        m_Stop = true;
+    }
+
+    public void StartMove()
+    {
+        m_Stop = false;
     }
 }
