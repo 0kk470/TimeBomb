@@ -11,7 +11,7 @@ public static class GameCore
 
     public const float MAX_TIMESCALE = 2;
 
-    public const float PLUS_TIMESCALE = 0.5f;
+    public const float TIMESCALE_STEP = 0.5f;
 
     private static LevelItem m_CurLevel;
 
@@ -35,5 +35,16 @@ public static class GameCore
                 m_CinemaChineCam = GameObject.FindGameObjectWithTag("CinemachineCam")?.GetComponent<CinemachineVirtualCamera>();
             return m_CinemaChineCam;
         }
+    }
+
+    public static bool IsLevelUnlock(uint level)
+    {
+        return PlayerPrefs.GetInt("level" + level, 0) == 1;
+    }
+
+    public static void UnLockLevel(uint level)
+    {
+        PlayerPrefs.SetInt("level" + level, 1);
+        PlayerPrefs.Save();
     }
 }

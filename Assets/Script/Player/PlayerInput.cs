@@ -25,11 +25,11 @@ public class PlayerInput : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            GameCore.CurrentLevel.TimeScale -= GameCore.PLUS_TIMESCALE;
+            GameCore.CurrentLevel.TimeScale -= GameCore.TIMESCALE_STEP;
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            GameCore.CurrentLevel.TimeScale += GameCore.PLUS_TIMESCALE;
+            GameCore.CurrentLevel.TimeScale += GameCore.TIMESCALE_STEP;
         }
     }
 }
